@@ -66,7 +66,7 @@ def scan_file():
     num_file = 0
     url = "https://www.virustotal.com/api/v3/files"
     headers = {
-        "x-apikey": input(Enter your x-apikey)
+        "x-apikey": input("Enter your x-apikey")
     }
 
     for f in files:
@@ -120,3 +120,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
